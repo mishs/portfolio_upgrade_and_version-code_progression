@@ -1,5 +1,15 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'react-mdl';
+import {
+  Tabs,
+  Tab,
+  Grid,
+  Cell,
+  Card,
+  CardActions,
+  CardMenu,
+  CardText,
+  CardTitle
+} from 'react-mdl';
 
 class Projects extends Component {
   constructor(props) {
@@ -12,6 +22,36 @@ class Projects extends Component {
       return (
         <div>
           <h1>This is React</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div>
+          <h1>HTML5 and CSS3 </h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div>
+          <h1>Bootstrap</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div>
+          <h1>JavaScript</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <div>
+          <h1>Applications </h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 5) {
+      return (
+        <div>
+          <h1>Node, Express and MongoDB </h1>
         </div>
       );
     }
@@ -29,8 +69,8 @@ class Projects extends Component {
           <Tab>HTML and CSS3</Tab>
           <Tab>Bootstrap</Tab>
           <Tab>JavaScript</Tab>
-          <Tab>Node.js</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Apps</Tab>
+          <Tab>Node.JS, Express and MongoDB</Tab>
         </Tabs>
 
         <section className="project-grid">{this.toggleCategories()}</section>
