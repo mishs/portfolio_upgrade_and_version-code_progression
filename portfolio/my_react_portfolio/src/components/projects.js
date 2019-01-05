@@ -8,6 +8,8 @@ import {
   CardActions,
   CardMenu,
   CardText,
+  Button,
+  IconButton,
   CardTitle
 } from 'react-mdl';
 
@@ -20,38 +22,480 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div>
-          <h1>This is React</h1>
+        <div className="projects-grid">
+          {/* // Project 1 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>HTML5 and CSS3 </h1>
+        <div className="projects-grid">
+          {/* // Project 1 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
-          <h1>Bootstrap</h1>
+        <div className="projects-grid">
+          {/* // Project 1 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
-        <div>
-          <h1>JavaScript</h1>
+        <div className="projects-grid">
+          {/* // Project 1 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 4) {
       return (
-        <div>
-          <h1>Applications </h1>
+        <div className="projects-grid">
+          {/* // Project 1 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
         </div>
       );
     } else if (this.state.activeTab === 5) {
       return (
-        <div>
-          <h1>Node, Express and MongoDB </h1>
+        <div className="projects-grid">
+          {/* // Project 1 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: '446', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.evilmartians.com/front/posts/optimizing-react-virtual-dom-explained/cover-a1d5b40.png) center /cover '
+              }}
+            >
+              React or Project 1
+            </CardTitle>
+            <CardText>
+              Why do we use it? It is a long established fact that a reader will
+              be distracted by the readable content of a page when looking at
+              its layout. The point of using Lorem Ipsum is that it has a
+            </CardText>
+            <CardActions border>
+              <Button colored>Site</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     }
@@ -73,7 +517,13 @@ class Projects extends Component {
           <Tab>Node.JS, Express and MongoDB</Tab>
         </Tabs>
 
-        <section className="project-grid">{this.toggleCategories()}</section>
+        {/* <section className="projects-grid"> */}
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
+        {/* </section> */}
       </div>
     );
   }

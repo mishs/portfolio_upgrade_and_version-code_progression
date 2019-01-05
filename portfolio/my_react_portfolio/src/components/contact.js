@@ -1,13 +1,35 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
-class Contacts extends Component {
+class Contact extends Component {
   render() {
     return (
-      <div>
-        <h1>Contact</h1>
+      <div className="contact-body">
+        <Grid className="contact-grid">
+          <Cell col={6}>
+            <h2>Misheck Siwela</h2>
+            <img
+              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              alt="ava-pic"
+              style={{ height: '250px' }}
+            />
+
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
+              Where does it come from? Contrary to popular belief, Lorem Ipsum
+              is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old.
+              Richard McClintock, a Latin professor at Hampden-Sydney College in
+              Virginia, looked up one of the more obscure Latin
+            </p>
+          </Cell>
+          <Cell col={6}>
+            <h2>Contact Me</h2>
+            <hr />
+          </Cell>
+        </Grid>
       </div>
     );
   }
 }
 
-export default Contacts;
+export default Contact;
