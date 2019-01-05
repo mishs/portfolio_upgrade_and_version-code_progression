@@ -71,6 +71,11 @@ contact-grid {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
 }
+
+.contact-list i {
+  font-size: '64px';
+  padding-right: 5rem;
+}
 .profile-image {
   height: 250px;
   padding-top: 5em;
