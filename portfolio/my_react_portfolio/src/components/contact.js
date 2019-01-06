@@ -7,11 +7,14 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Misheck Siwela</h2>
+            <h3 style={{ marginRight: '30%' }}>Misheck Siwela</h3>
             <img
               src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
               alt="ava-pic"
-              style={{ height: '250px' }}
+              style={{
+                height: '250px',
+                marginLeft: '12%'
+              }}
             />
 
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
@@ -23,7 +26,7 @@ class Contact extends Component {
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h3>Contact Me</h3>
             <hr />
             <div className="contact-list">
               <List>
@@ -50,7 +53,7 @@ class Contact extends Component {
                     style={{ fontSize: '25px', fontFamily: 'Anton' }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    MySkypeID{' '}
+                    Website{' '}
                   </ListItemContent>
                 </ListItem>
 
