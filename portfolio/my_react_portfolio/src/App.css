@@ -36,6 +36,15 @@
   display: flex;
 }
 
+
+  /* Resume Page */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
+
+  /* Resume Page- end */
+
 /* contact page css */
 .contact-body {
   margin: auto;
