@@ -95,7 +95,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>Site</Button>
-              <Button colored>Github</Button>
+              <Button colored> Codepen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -411,7 +411,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
         </div>
       );
     } else if (this.state.activeTab === 5) {

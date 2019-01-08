@@ -32,7 +32,6 @@ class App extends Component {
               </Link>
             }
           >
-            }
             <Navigation>
               <Link to="/aboutme">About Me</Link>
               <Link to="/contact">Contact</Link>
