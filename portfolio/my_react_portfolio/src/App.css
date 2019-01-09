@@ -81,11 +81,6 @@
   margin: auto;
 }
 
-.contact-grid {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
-
 .contact-list i {
   font-size: 64px;
   padding-right: 5rem;
@@ -98,7 +93,7 @@
 .profile-banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 70%;
+  width: 75%;
   opacity: 0.9;
   margin: auto;
   border-radius: 10px;
@@ -111,7 +106,7 @@
 }
 
 .profile-banner-text hr {
-  border-top: 6px dashed white;
+  border-top: 5px dashed white;
   width: 50%;
   margin: auto;
 }
